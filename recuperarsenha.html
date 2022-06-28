@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+
+    <link rel="icon" type="image/png" href="../images/icons/Lamp.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<!--===============================================================================================-->
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/recuperarsenha_verifica.js"></script>
+
+
+</head>
+<body>
+	<div class="main-login">
+		<div class="left-screen-login">
+			<h1>YourFinances</h1>
+			<img src="imagens\Animate.svg" alt="Animate" class="left-screen-login-image">
+		</div>
+		<form id="form-autenticacao">
+			<div class="right-screen-login">
+				<div class="card-login">
+					<h1>Recuperar Senha</h1> <br><br>
+
+					<div class="textfield">
+						<form id="dados">
+							<label for="email">Digite seu email</label>
+							<input type="text" name="email" id="email" placeholder="Digite seu email"> <br>
+
+							<button type="button" class="button-acessar mgtop26"  id="button_recuperar">Enviar email de recuperação</button><br>
+
+							<a href="login.html" class="button-acessar font15">Voltar a tela de login</a>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</form>
+
+	</div>
+
+</body>
+</html>

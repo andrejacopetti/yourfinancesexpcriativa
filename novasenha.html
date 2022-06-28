@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Email</title>
+
+    <link rel="icon" type="image/png" href="../images/icons/Lamp.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<!--===============================================================================================-->
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/criptografia.js"></script>
+	<script src="js/jsencrypt.min.js"></script>
+	<Script src="js/verifica_acesso.js"></script>
+	<script src="js/recuperarsenha.js"></script>
+
+</head>
+<body>
+	<div class="main-login">
+		<div class="left-screen-login">
+			<h1>YourFinances</h1>
+			<img src="imagens\Animate.svg" alt="Animate" class="left-screen-login-image">
+		</div>
+		<form id="form-autenticacao">
+			<div class="right-screen-login">
+				<div class="card-login">
+					<h1>Cadastrar nova senha</h1> <br><br>
+
+					<div class="textfield">
+						<form id="dados">
+							<label for="senha">Digite sua nova senha</label>
+							<input type="text" name="senha" id="senha" placeholder="Nova senha"><br>
+
+							<label for="senha">Confirme sua nova senha</label>
+							<input type="text" name="oksenha" id="oksenha" placeholder="Confirmar nova senha"><br>
+
+							<button type="button" class="button-acessar mgtop26"  id="button_recuperar">Atualizar minha senha</button><br>
+							<input type="hidden" name="senhaHash" id="senhaHash">
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</form>
+
+	</div>
+
+</body>
+</html>

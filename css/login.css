@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #0E2C40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-screen-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-screen-login h1{
+    font-size: 3vw;
+    color: #fff;
+}
+
+.left-screen-login-image{
+    width: 35vw;
+}
+
+
+
+.right-screen-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1A4A5A;
+    border-radius: 20px;
+    box-shadow: 0px -10px 40px #00000056;
+}
+
+.card-login h1{
+    color:#fff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.card-verificar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1A4A5A;
+    border-radius: 20px;
+    box-shadow: 0px -10px 40px #00000056;
+}
+
+.card-verificar h1{
+    color:#fff;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textfield input{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #dbf3f3;
+    color:#000;
+    font-size: 12pt;
+    box-shadow: 0px -10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield label{
+    color:#fff;
+    margin-bottom: 10px;
+}
+
+.textfield input::placeholder{
+    color:#00000056;
+}
+
+
+.button-pag-registro{
+    width: 150px;
+    margin-top: -50px;
+    /* margin-right: 400px; */
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mgtop26{ 
+    margin-top: 26px!important;
+    text-align: center;
+}
+
+.button-pag-registro:hover{
+    color: #1bb669;
+}
+
+.button-pag-recuperar{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    /* margin-right: 400px; */
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-pag-recuperar:hover{
+    color: #1bb669;
+}
+
+
+
+.button-mandar-email{
+    display: block;
+    padding: 15px 25px;
+    max-width: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #3a6b6b;
+    border: none;
+    border-radius: 15px;
+    box-sizing: content-box;
+    box-shadow: 0 9px #0E2C40;
+}
+
+
+.button-mandar-emai:hover {
+    background-color: #2F4F4F;
+}
+
+.button-mandar-emai:active {
+    background-color: #dbf3f3;
+    box-shadow: 0 5px #2F4F4F;
+    transform: translateY(4px);
+}
+
+.button-acessar{
+    display: block;
+    padding: 15px 25px;
+    max-width: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3a6b6b;
+    border: none;
+    border-radius: 15px;
+    box-sizing: content-box;
+    box-shadow: 0 9px #0E2C40;
+}
+
+.button-acessar:hover {
+    background-color: #2F4F4F;
+}
+
+.button-acessar:active {
+    background-color: #dbf3f3;
+    box-shadow: 0 5px #2F4F4F;
+    transform: translateY(4px);
+}
+
+.font15{ 
+    font-size: 15px!important;
+}
+
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction:column;
+    }
+    .left-screen-login h1{
+        display: none;
+    }
+    .left-screen-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .left-screen-login-image{
+        width: 50vw;
+    }
+    .card-login{
+        width: 90%;
+    }
+}

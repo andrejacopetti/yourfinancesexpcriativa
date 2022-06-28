@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Registro</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="../images/icons/Lamp.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" href="css\register.css">
+	<!--===============================================================================================-->
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/validacampo.js"></script>
+	<script src="js/criptografia.js"></script>
+	<script	src="js/crypto-js.min.js"></script>
+	<script src="js/jsencrypt.min.js"></script>
+
+	<!--===============================================================================================-->
+
+</head>
+
+<body>	
+	<form id="form-registro">
+		<div class="container">
+			<div class="main-registro">
+				<div class="card-registro">
+					<h1>Criar conta</h1>
+					<div class="textfield">
+						<label for="usuario">Email</label>
+						<input type="text" name="email" id="email" placeholder="Digite seu email">
+					</div>
+					<div class="textfield">
+						<label for="Senha">Senha</label>
+						<input type="text" name="senha" id="senha" placeholder="Digite sua Senha">
+					</div>
+					<div class="textfield">
+						<label for="Confirmar Senha">Confirmar Senha</label>
+						<input type="text" name="oksenha" id="oksenha" placeholder="Confirme sua senha">
+					</div>
+					<div class="textfield">
+						<label for="telefone">Telefone</label>
+						<input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone">
+					</div>	
+					<div class="textfield2">
+						<button type="button" class="button-registro mgtop26" id="button-registro" onclick>Registrar-se</button> <br>
+						<a href="login.html" class="mgtop26 buttonconta">Ja tem uma conta?</a>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<input type="hidden" name="senhaHash" id="senhaHash">
+	</form>
+</body>
+
+</html>

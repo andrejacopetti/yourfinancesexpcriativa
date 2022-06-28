@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #0E2C40;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-registro {
+    width: 100vw;
+    height: 100vh;
+    background: #0E2C40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-registro {
+    width: 50%;
+    height: 90%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1A4A5A;
+    border-radius: 20px;
+    box-shadow: 0px -10px 40px #00000056;
+}
+
+.card-registro h1 {
+    color: #fff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    color: #fff;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.textfield2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    color: #fff;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.textfield input {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #dbf3f3;
+    color: #000;
+    font-size: 80%;
+    box-shadow: 0px -10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield label {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+.textfield input::placeholder {
+    color: #00000056;
+}
+
+.button-registro {
+    display: block;
+    max-width: 50%;
+    padding: 15px 25px;
+    font-size: 24px;
+    margin-top: 13px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3a6b6b;
+    border: none;
+    border-radius: 15px;
+    box-sizing: content-box;
+    box-shadow: 0 9px #0E2C40;
+}
+
+
+.button-entrar{
+    display: block;
+    max-width: 50%;
+    padding: 15px 25px;
+    font-size: 24px;
+    margin-top: 13px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3a6b6b;
+    border: none;
+    border-radius: 15px;
+    box-sizing: content-box;
+    box-shadow: 0 9px #0E2C40;
+}
+
+.button-entrar:hover{
+    background-color: #2F4F4F;
+}
+
+
+.button-registro:hover {
+    background-color: #2F4F4F;
+}
+
+.button-registro:active {
+    background-color: #dbf3f3;
+    box-shadow: 0 5px #2F4F4F;
+    transform: translateY(4px);
+}
+
+
+.button_voltalogin{
+    width: 250px;
+    margin-top: -50px;
+    /* margin-right: 400px; */
+    color:#fff;
+    text-decoration: none;
+}
+
+.button_voltalogin:hover {
+    color: #1bb669;
+}
+
+.mgtop26{ 
+    margin-top: 26px;
+    text-align: center;
+}
+
+.buttonconta{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    /* margin-right: 400px; */
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}

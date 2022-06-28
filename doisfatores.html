@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Verificar Email</title>
+
+    <link rel="icon" type="image/png" href="../images/icons/Lamp.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<!--===============================================================================================-->
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/doisfatores.js"></script>
+
+
+</head>
+<body>
+	<div class="main-login">
+		<form id="form-autenticacao">
+			<div class="right-screen-login">
+				<div class="card-verificar">
+					<h1>Verificação Login</h1> <br><br>
+
+					<div class="textfield">
+						<form>
+							
+                            <label for="codigo">Digite o código de verificação</label>
+							<input type="text" name="codigo" id="codigo" placeholder="Digite o código"><br>
+							<button type="button" class="button-acessar mgtop26"  id="button_codigo">validar código</button><br>
+							<button type="button" class="button-acessar mgtop26"  id="button_reenviar-codigo">Reenviar-codigo</button><br>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</form>
+
+	</div>
+</body>
+</html>
